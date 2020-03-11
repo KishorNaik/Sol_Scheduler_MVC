@@ -14,8 +14,8 @@ namespace Sol_Demo.Schedulers
 
         public async Task ExecuteAsync(CancellationToken cancellationToken)
         {
-            string someText = "C# Corner is a community of software and data developers";
-            File.WriteAllText(@"C:\csc.txt", someText);
+            string someText = "Hello I am .Net Core Developer";
+            File.WriteAllText(@"C:\demo.txt", someText);
 
             await Task.CompletedTask;
         }
